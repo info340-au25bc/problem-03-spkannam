@@ -1,1 +1,21 @@
-/* your CSS goes here */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nunito Sans, Arial, sans serif;
+    font-size: 16px;
+}
+
+h1 h2 {
+    font: Raleway, Helvetica, sans serif;
+    font-weight: light 300;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
