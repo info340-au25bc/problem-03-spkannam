@@ -15,9 +15,11 @@ g.contained circle.small {
     fill: #573d29;
 }
 
-g.contained circle rect#rect {
+g.contained circle 
+g.contained #rect {
     fill: #c0c0c0;
     stroke: none;
+    opacity: 1;
 }
 
 #interactive {
