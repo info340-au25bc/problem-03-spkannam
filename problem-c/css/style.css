@@ -30,6 +30,7 @@ main > div {
 
 .second {
   background-color: #eee;
+  flex: 1 0 0;
 }
 
 .third {

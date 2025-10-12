@@ -3,12 +3,16 @@
 }
 
 body {
-    font-family: Nunito Sans, Arial, sans serif;
+    font-family: Nunito Sans, Arial, sans-serif;
     font-size: 16px;
 }
 
-h1 h2 {
-    font: Raleway, Helvetica, sans serif;
+h2 {
+    font-size: 2rem;
+}
+
+h1, h2 {
+    font: Raleway, Helvetica, sans-serif;
     font-weight: light 300;
     margin-top: 0;
     margin-bottom: 0.5rem;
@@ -16,10 +20,6 @@ h1 h2 {
 
 h1 {
     font-size: 3.5rem;
-}
-
-h2 {
-    font-size: 2rem;
 }
 
 .material-icons {
@@ -34,7 +34,7 @@ h2 {
     padding: 1rem;
 }
 
-p dl {
+p, dl {
     margin-top: 0;
     margin-bottom: 1rem;
 }
@@ -46,7 +46,7 @@ nav {
     width: 100%;
     background-color: #2c96bf;
     color: white;
-    padding: 0.5rem 1rem; 
+    padding: 0.5rem 0.5rem 1rem 0.5rem; 
 }
 
 nav ul {
@@ -58,6 +58,11 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin: 0 1rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -85,7 +90,7 @@ header p.motto {
 }
 
 dl dt {
-    font-size: 125%;
+    font-size: 1.25rem;
     font-weight: bold;
     margin-top: 1rem;
 }
@@ -112,16 +117,8 @@ footer {
     padding: 1rem;
     border-top: 1px solid #ccc;
     margin-top: 2rem;
-}
-
-footer {
     background-color: #3e1305;
     color: white;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
 }
 
 footer p {
