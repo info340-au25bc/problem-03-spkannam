@@ -19,6 +19,7 @@ g.contained circle
 g.contained #rect {
     fill: #c0c0c0;
     stroke: none;
+    opacity: 1;
 }
 
 #interactive {
