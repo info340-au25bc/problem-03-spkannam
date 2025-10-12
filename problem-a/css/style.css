@@ -1,9 +1,9 @@
 circle {
-    fill: #a02020;
+    fill: #5f5f5f;
 }
 
 path {
-    stroke: #a02020;
+    stroke: #5f5f5f;
     stroke-width: 8px;
 }
 
@@ -15,8 +15,7 @@ g.contained circle.small {
     fill: #573d29;
 }
 
-g.contained circle 
-g.contained #rect {
+g.contained circle, #rect {
     fill: #c0c0c0;
     stroke: none;
     opacity: 1;
