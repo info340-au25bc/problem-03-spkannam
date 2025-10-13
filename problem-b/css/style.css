@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: Nunito Sans, Arial, sans-serif;
+    font-family: 'Nunito Sans', 'Arial', sans-serif;
     font-size: 16px;
 }
 
@@ -56,7 +56,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline;
     margin: 0 1rem;
 }
 
@@ -107,16 +107,9 @@ dl dd {
 #about {
     background-color: #e0e0e0;
     line-height: 1.5;
-    padding-bottom: 2rem;
 }
 
 footer {
-    text-align: center;
-    font-size: 0.75rem;
-    color: #666;
-    padding: 1rem;
-    border-top: 1px solid #ccc;
-    margin-top: 2rem;
     background-color: #3e1305;
     color: white;
 }
