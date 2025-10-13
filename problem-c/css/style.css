@@ -16,7 +16,7 @@ body {
 }
 
 main {
-  flex: 1 1 auto;
+  flex: 1;
 }
 
 main > div {
@@ -30,7 +30,7 @@ main > div {
 
 .second {
   background-color: #eee;
-  flex: 1 0 0;
+  flex: 1;
 }
 
 .third {
@@ -51,7 +51,7 @@ section {
 }
 
 .cards div {
-  background: white;
+  background-color: white;
   flex: 0 0 250px; 
   box-sizing: border-box;
   border-radius: 10px;
